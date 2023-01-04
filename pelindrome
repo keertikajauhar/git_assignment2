@@ -1,0 +1,15 @@
+// given string check it is Palindrome print yes or no;
+
+let str="naman";
+
+let newStr="";
+
+for(let i=str.length-1;i>=0;i--){
+    newStr+=str[i];
+   }
+
+if(str==newStr){
+   console.log("Yes");
+}else{
+   console.log("Yes");
+}
